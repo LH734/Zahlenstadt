@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1c231f">
+<title>Zahlenstadt</title>
+<link rel="stylesheet" href="css/spiel.css">
+</head>
+<body>
+<div id="app" class="app">
+
+  <!-- Statusleiste (Abschnitt 8) -->
+  <header class="statusleiste" id="statusleiste">
+    <div class="marke" id="marke" aria-hidden="true"></div>
+    <div class="st st-codename"><span class="st-label">Codename</span><span class="st-wert" id="stCodename"></span></div>
+    <div class="st"><span class="st-label">Stufe</span><span class="st-wert" id="stStufe"></span></div>
+    <div class="st st-etappe"><span class="st-label">Etappe</span><span class="st-wert" id="stEtappe"></span></div>
+    <div class="st st-zahl richtig"><span class="st-label">richtig</span><span class="st-wert"><i aria-hidden="true">✓</i><span id="stRichtig">0</span></span></div>
+    <div class="st st-zahl falsch"><span class="st-label">falsch</span><span class="st-wert"><i aria-hidden="true">✗</i><span id="stFalsch">0</span></span></div>
+    <div class="st st-typ"><span class="st-label">Aufgabe</span><span class="st-wert" id="stTyp"></span></div>
+    <div class="haengt" id="stHaengt" hidden><span id="haengtSymbol"></span>hängt</div>
+    <button type="button" class="zahnrad" id="menueKnopf" aria-label="Menü"></button>
+  </header>
+
+  <main class="buehne">
+    <!-- Stadt (Schritt 2: Platzhalter) -->
+    <section class="welt" id="welt" aria-label="Deine Stadt"></section>
+    <div class="meldungen" id="meldungen" aria-live="polite"></div>
+
+    <!-- Aufgabenkarte mit Tastatur -->
+    <section class="werkbank" id="werkbank" aria-label="Aufgabe">
+      <div class="werkbank-kopf">
+        <span class="typ-chip" id="typChip"></span>
+        <span class="bauziel" id="bauziel"></span>
+        <span class="pips" id="pips" aria-hidden="true"></span>
+        <button type="button" class="tipp-knopf" id="tippKnopf" hidden>Tipp</button>
+      </div>
+
+      <ol class="coach" id="coach" hidden>
+        <li><b>Rechnen:</b> im Hefter. Hier tippst du nur das Ergebnis und drückst <b>Prüfen</b>.</li>
+        <li><b>Falsch?</b> 15 Sekunden Pause zum Nachrechnen – dann derselbe Versuch noch einmal.</li>
+        <li><b>Richtig?</b> Deine Stadt bekommt einen neuen Bauabschnitt.</li>
+      </ol>
+
+      <article class="aufgabenkarte" id="aufgabenkarte">
+        <div class="aufgabe" id="aufgabe"></div>
+      </article>
+
+      <div class="eingabezeile">
+        <span class="eingabe-label">Ergebnis</span>
+        <div class="eingabefeld leer" id="eingabefeld" role="textbox" aria-readonly="true" aria-label="Ergebnis"></div>
+      </div>
+      <div class="rueckmeldung" id="rueckmeldung" aria-live="polite"></div>
+
+      <div class="tastatur-huelle">
+        <div class="tastatur" id="tastatur"></div>
+        <div class="sperre" id="sperre" hidden>
+          <div class="sperre-zahl" id="sperreZahl"></div>
+          <div class="sperre-text">Sekunden Pause – rechne nach</div>
+          <div class="sperre-leiste"><i id="sperreBalken"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Endseite (Abschnitt 2) -->
+    <section class="endkarte" id="endkarte" hidden>
+      <div class="end-titel" id="titelEnde"></div>
+      <p class="end-codename" id="endCodename"></p>
+      <dl class="endwerte">
+        <div><dt>Etappe</dt><dd id="endEtappe"></dd></div>
+        <div><dt>Stufe</dt><dd id="endStufe"></dd></div>
+        <div><dt>richtig</dt><dd class="richtig">✓ <span id="endRichtig"></span></dd></div>
+        <div><dt>falsch</dt><dd class="falsch">✗ <span id="endFalsch"></span></dd></div>
+        <div><dt>Bauabschnitte</dt><dd id="endBauten"></dd></div>
+      </dl>
+      <div class="code-block">
+        <span class="code-label">Dein Abschlusscode</span>
+        <div class="code gross" id="endCode"></div>
+        <span class="code-hinweis">Schreib ihn in deinen Hefter oder zeig ihn deiner Lehrkraft.</span>
+      </div>
+      <button type="button" class="knopf holz" id="weiterspielen">Weiterspielen</button>
+    </section>
+  </main>
+
+  <!-- Startschirm -->
+  <div class="startschirm" id="startschirm" hidden>
+    <div class="start-inhalt">
+      <h1 class="logo" id="logo"></h1>
+      <p class="start-unterzeile">Rechne im Hefter. Tippe das Ergebnis. Deine Stadt wächst.</p>
+      <div class="codename-karte">
+        <span class="codename-label">Dein Codename</span>
+        <strong class="codename" id="startCodename"></strong>
+        <button type="button" class="knopf holz" id="wuerfeln"><span class="symbol" id="wuerfelSymbol"></span>Neu würfeln</button>
+      </div>
+      <p class="start-hinweis">Du startest in der <b>Hauptstufe</b>. Das Spiel passt die Stufe an dich an.</p>
+      <p class="start-warnung" id="startWarnung" hidden>Ein alter Spielstand passte nicht zu dieser Version und wurde verworfen.</p>
+      <button type="button" class="knopf gras gross" id="losGehts">Los geht’s</button>
+    </div>
+  </div>
+
+  <!-- Lösungskarte nach dem zweiten Fehler (Abschnitt 4) -->
+  <div class="modal-huelle" id="loesungskarte" hidden>
+    <div class="modal karte-loesung" role="dialog" aria-modal="true" aria-labelledby="titelLoesung">
+      <div class="modal-titel" id="titelLoesung"></div>
+      <div class="lk-aufgabe" id="lkAufgabe"></div>
+      <div class="lk-loesung">Lösung: <strong id="lkLoesung"></strong></div>
+      <div class="lk-rechenweg" id="lkRechenweg"></div>
+      <p class="lk-hinweis">Lies den Rechenweg genau und übertrage ihn in deinen Hefter. Danach kommt eine neue Aufgabe desselben Typs.</p>
+      <button type="button" class="knopf gras" id="lkWeiter" disabled>Verstanden – neue Aufgabe<span id="lkWarten"></span></button>
+    </div>
+  </div>
+
+  <!-- Menü -->
+  <div class="modal-huelle" id="menue" hidden>
+    <div class="modal menue" role="dialog" aria-modal="true" aria-labelledby="titelMenue">
+      <div class="modal-kopf">
+        <div class="modal-titel" id="titelMenue"></div>
+        <button type="button" class="schliessen" data-schliessen aria-label="Menü schließen">×</button>
+      </div>
+      <section>
+        <h3>Stufe</h3>
+        <div class="stufenwahl" id="stufenwahl"></div>
+        <p class="klein" id="menueAutomatik"></p>
+      </section>
+      <section>
+        <h3>Abschlusscode</h3>
+        <div class="code" id="menueCode"></div>
+        <p class="klein">Den Code zeigst du am Ende der Stunde deiner Lehrkraft.</p>
+      </section>
+      <section class="menue-zeile">
+        <h3>Ton</h3>
+        <button type="button" class="schalter" id="tonSchalter" role="switch" aria-checked="false"><i></i><span>aus</span></button>
+      </section>
+      <section class="menue-aktionen">
+        <button type="button" class="knopf holz" id="stundeBeenden">Stunde beenden</button>
+        <button type="button" class="knopf leise" id="neuAnfangen">Neu anfangen</button>
+      </section>
+    </div>
+  </div>
+
+  <!-- Rückfrage -->
+  <div class="modal-huelle oben" id="rueckfrage" hidden>
+    <div class="modal klein-modal" role="alertdialog" aria-modal="true" aria-labelledby="rueckfrageTitel">
+      <h2 id="rueckfrageTitel"></h2>
+      <p id="rueckfrageText"></p>
+      <div class="knopfreihe">
+        <button type="button" class="knopf leise" data-schliessen>Abbrechen</button>
+        <button type="button" class="knopf gras" id="rueckfrageJa"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tipp -->
+  <div class="modal-huelle" id="tippkarte" hidden>
+    <div class="modal klein-modal" role="dialog" aria-modal="true" aria-labelledby="tippTitel">
+      <h2 id="tippTitel">Tipp</h2>
+      <p class="tipp-text" id="tippText"></p>
+      <div class="knopfreihe"><button type="button" class="knopf gras" data-schliessen>Alles klar</button></div>
+    </div>
+  </div>
+
+  <!-- Hochformat -->
+  <div class="drehen" id="drehen">
+    <div class="drehen-geraet" aria-hidden="true"><i></i></div>
+    <p><b>Bitte iPad drehen</b><br>Zahlenstadt braucht das Querformat.</p>
+  </div>
+</div>
+
+<script src="js/aufgaben.js"></script>
+<script src="js/bauplan.js"></script>
+<script src="js/spiel.js"></script>
+<script src="js/pixelschrift.js"></script>
+<script src="js/texturen.js"></script>
+<script src="js/tastatur.js"></script>
+<script src="js/platzhalter.js"></script>
+<script src="js/oberflaeche.js"></script>
+</body>
+</html>
