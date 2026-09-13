@@ -1,0 +1,1535 @@
+ZAHLENSTADT – SELBSTTEST DER AUFGABENGENERATOREN
+Datum: 13.9.2026, 19:41:24
+Umgebung: Deno/2.9.6
+Läufe je Generator, Stufe und Niveau: 2000
+GESAMTERGEBNIS: BESTANDEN
+
+── Vorrangregeln · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 0…180, Grenze 500 [Pflichtenheft], 1781 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 48, Median Zeit 12 s, 34 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Zahlen der Aufgabe im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (a + b) · c ×403 | a + b : c ×404 | a − b · c ×422 | a + b · c ×373 | a · (b − c) ×398
+── Vorrangregeln · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 0…500, Grenze 500 [Pflichtenheft], 1917 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 79.5, Median Zeit 15 s, 25 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Zahlen der Aufgabe im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a + b · c ×409 | a · (b − c) ×412 | (a + b) · c ×394 | a + b : c ×399 | a − b · c ×386
+── Vorrangregeln · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 0…500, Grenze 500 [Pflichtenheft], 1966 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 97, Median Zeit 15 s, 21 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Zahlen der Aufgabe im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a + b · c ×394 | a − b · c ×426 | a + b : c ×393 | a · (b − c) ×395 | (a + b) · c ×392
+── Vorrangregeln · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 0…900, Grenze 5000 [Pflichtenheft], 1998 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 178, Median Zeit 27 s, 30 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Zahlen der Aufgabe im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (a − b) : c + d ×684 | (a + b) · (c − d) ×644 | a · (b + c) − d ×672
+── Vorrangregeln · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…4953, Grenze 5000 [Pflichtenheft], 2000 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 591, Median Zeit 41 s, 33 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Zahlen der Aufgabe im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a + b · c − d : e ×489 | (a − b) : c + d ×506 | (a + b) · (c − d) ×518 | a · (b + c) − d ×487
+── Vorrangregeln · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…5000, Grenze 5000 [Pflichtenheft], 2000 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 919.5, Median Zeit 47 s, 37 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Zahlen der Aufgabe im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (a + b) · (c − d) ×491 | a + b · c − d : e ×507 | a · (b + c) − d ×486 | (a − b) : c + d ×516
+── Vorrangregeln · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 0…9991, Grenze 20000 [Pflichtenheft], 1748 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 114.5, Median Zeit 31 s, 44 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · 10³ + b · 10² + c · 10 + d ×685 | (a − b)² : c ×661 | a · b² − c ×654
+── Vorrangregeln · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 0…19645, Grenze 20000 [Pflichtenheft], 1971 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 1014, Median Zeit 42 s, 42 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · b² − c ×489 | (a − b)² : c ×490 | a − b · (c + d²) ×493 | a · 10³ + b · 10² + c · 10 + d ×528
+── Vorrangregeln · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 0…19502, Grenze 20000 [Pflichtenheft], 1991 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 1192.5, Median Zeit 46 s, 41 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · b² − c ×497 | a − b · (c + d²) ×516 | a · 10³ + b · 10² + c · 10 + d ×488 | (a − b)² : c ×499
+── Potenzen · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 4…1000, Grenze 10000 [Pflichtenheft], 29 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 49, Median Zeit 10 s, 18 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Produkt als Potenz (G) ×653 | a² (a ≤ 12) ×590 | 10ⁿ (n ≤ 4) ×333 | a³ (a ≤ 6) ×424
+── Potenzen · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 4…10000, Grenze 10000 [Pflichtenheft], 37 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 64, Median Zeit 10 s, 17 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: 10ⁿ (n ≤ 4) ×382 | a³ (a ≤ 6) ×459 | Produkt als Potenz (G) ×583 | a² (a ≤ 12) ×576
+── Potenzen · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 4…10000, Grenze 10000 [Pflichtenheft], 37 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 64, Median Zeit 10 s, 18 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a³ (a ≤ 6) ×445 | Produkt als Potenz (G) ×604 | 10ⁿ (n ≤ 4) ×392 | a² (a ≤ 12) ×559
+── Potenzen · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…1000, Grenze 20736 [Pflichtenheft], 675 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 125, Median Zeit 10 s, 20 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: aⁿ (a ≤ 12, n ≤ 4) ×726 | a¹ und a⁰ (a ≤ 999) ×785 | Produkt als Potenz ×489
+── Potenzen · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…20736, Grenze 20736 [Pflichtenheft], 643 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 436, Median Zeit 10 s, 20 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: aⁿ (a ≤ 12, n ≤ 4) ×667 | a¹ und a⁰ (a ≤ 999) ×707 | Produkt als Potenz ×626
+── Potenzen · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…20736, Grenze 20736 [Pflichtenheft], 667 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 490.5, Median Zeit 10 s, 17 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a¹ und a⁰ (a ≤ 999) ×708 | Produkt als Potenz ×637 | aⁿ (a ≤ 12, n ≤ 4) ×655
+── Potenzen · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…269, Grenze 20000 [Absprache], 368 verschiedene Anzeigen, 2/2 Muster, Median größte Zahl 28, Median Zeit 18 s, 26 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: aⁿ + bᵐ ×1000 | (a + b)ⁿ − cᵐ ×1000
+── Potenzen · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…8919, Grenze 20000 [Absprache], 1523 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 170, Median Zeit 27 s, 32 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · bⁿ − cᵐ ×523 | (a + b)ⁿ − cᵐ ×476 | (aⁿ − bᵐ) · c ×495 | aⁿ + bᵐ ×506
+── Potenzen · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…8975, Grenze 20000 [Absprache], 1691 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 219, Median Zeit 32 s, 30 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (a + b)ⁿ − cᵐ ×476 | aⁿ + bᵐ ×527 | a · bⁿ − cᵐ ×491 | (aⁿ − bᵐ) · c ×506
+── Vorteilhaft rechnen · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 200…20000, Grenze 99000 [Absprache], 152 verschiedene Anzeigen, 1/1 Muster, Median größte Zahl 1400, Median Zeit 19 s, 22 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Faktoren umordnen ×2000
+── Vorteilhaft rechnen · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 200…50000, Grenze 99000 [Absprache], 390 verschiedene Anzeigen, 1/1 Muster, Median größte Zahl 3500, Median Zeit 19 s, 23 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Faktoren umordnen ×2000
+── Vorteilhaft rechnen · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 200…99000, Grenze 99000 [Absprache], 722 verschiedene Anzeigen, 1/1 Muster, Median größte Zahl 6700, Median Zeit 19 s, 22 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Faktoren umordnen ×2000
+── Vorteilhaft rechnen · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 21…3000, Grenze 99000 [Absprache], 1578 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 1200, Median Zeit 22 s, 22 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · b + c · a, b + c = 100 ×675 | a · (b + c), b + c = 100 oder 1 000 ×662 | (a + b) : c ×663
+── Vorteilhaft rechnen · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 21…20000, Grenze 99000 [Absprache], 1840 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 3000, Median Zeit 22 s, 23 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (a + b) : c ×660 | a · (b + c), b + c = 100 oder 1 000 ×674 | a · b + c · a, b + c = 100 ×666
+── Vorteilhaft rechnen · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 21…49000, Grenze 99000 [Absprache], 1884 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 4500, Median Zeit 22 s, 22 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · b + c · a, b + c = 100 ×668 | a · (b + c), b + c = 100 oder 1 000 ×669 | (a + b) : c ×663
+── Vorteilhaft rechnen · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 20…4800, Grenze 99000 [Absprache], 550 verschiedene Anzeigen, 2/2 Muster, Median größte Zahl 954, Median Zeit 23.5 s, 26 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a : c − b : c ×1000 | drei Faktoren mit verstecktem Paar ×1000
+── Vorteilhaft rechnen · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 20…95000, Grenze 99000 [Absprache], 1603 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 3000, Median Zeit 25 s, 29 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a : c − b : c ×676 | drei Faktoren mit verstecktem Paar ×658 | a · b − a · c + a · d, b − c + d = 100 ×666
+── Vorteilhaft rechnen · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 20…99000, Grenze 99000 [Absprache], 1810 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 4100, Median Zeit 29 s, 28 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a : c − b : c ×671 | drei Faktoren mit verstecktem Paar ×675 | a · b − a · c + a · d, b − c + d = 100 ×654
+── Term aus Text · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…270, Grenze 2000 [Absprache], 1115 verschiedene Anzeigen, 8/8 Muster, Median größte Zahl 104, Median Zeit 15 s, 17 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Produkt ×262 | Dividiere ×256 | Multipliziere ×261 | Quotient ×271 | Subtrahiere ×234 | Verdopple ×233 | Addiere ×257 | Halbiere ×226
+── Term aus Text · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…979, Grenze 2000 [Absprache], 1520 verschiedene Anzeigen, 8/8 Muster, Median größte Zahl 237.5, Median Zeit 19 s, 17 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Quotient ×269 | Dividiere ×265 | Verdopple ×254 | Halbiere ×244 | Subtrahiere ×248 | Addiere ×232 | Produkt ×243 | Multipliziere ×245
+── Term aus Text · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 2…1870, Grenze 2000 [Absprache], 1730 verschiedene Anzeigen, 8/8 Muster, Median größte Zahl 400, Median Zeit 20 s, 17 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Dividiere ×248 | Subtrahiere ×266 | Quotient ×238 | Halbiere ×242 | Verdopple ×257 | Addiere ×242 | Multipliziere ×268 | Produkt ×239
+── Term aus Text · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 0…382, Grenze 5000 [Absprache], 1976 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 128, Median Zeit 25 s, 24 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Differenz halbieren ×324 | Differenz mal Summe ×327 | Differenz durch c ×317 | Produkt plus c ×351 | Summe verdoppeln ×324 | Summe von c subtrahieren ×357
+── Term aus Text · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 2…1176, Grenze 5000 [Absprache], 1984 verschiedene Anzeigen, 7/7 Muster, Median größte Zahl 315, Median Zeit 32 s, 25 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Summe verdoppeln ×284 | Produkt durch c ×292 | Differenz durch c ×292 | Produkt plus c ×295 | Differenz halbieren ×275 | Differenz mal Summe ×279 | Summe von c subtrahieren ×283
+── Term aus Text · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…1912, Grenze 5000 [Absprache], 1993 verschiedene Anzeigen, 7/7 Muster, Median größte Zahl 504.5, Median Zeit 35 s, 26 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Produkt plus c ×274 | Summe von c subtrahieren ×299 | Produkt durch c ×291 | Differenz durch c ×277 | Summe verdoppeln ×269 | Differenz halbieren ×289 | Differenz mal Summe ×301
+── Term aus Text · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 0…276, Grenze 20000 [Absprache], 1388 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 70, Median Zeit 23 s, 32 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: dritte Potenz minus Summe ×677 | Hälfte des Quadrats plus b ×647 | Quadrat plus Produkt ×676
+── Term aus Text · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 0…2025, Grenze 20000 [Absprache], 1560 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 144, Median Zeit 37 s, 31 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Quadrat plus Produkt ×365 | dritte Potenz minus Summe ×340 | dritte Potenz durch Quadrat ×292 | Hälfte des Quadrats plus b ×328 | Quadrat der Differenz mal c ×342 | dritte Potenz minus Doppeltes ×333
+── Term aus Text · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 0…2025, Grenze 20000 [Absprache], 1625 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 200, Median Zeit 42 s, 33 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Quadrat plus Produkt ×335 | dritte Potenz minus Doppeltes ×348 | Hälfte des Quadrats plus b ×373 | dritte Potenz durch Quadrat ×293 | dritte Potenz minus Summe ×335 | Quadrat der Differenz mal c ×316
+── Gleichungen · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…10, Grenze 12 [Pflichtenheft], 1333 verschiedene Anzeigen, 2/2 Muster, Median größte Zahl 28, Median Zeit 15 s, 27 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · x + b = c ×1000 | a · x − b = c ×1000
+── Gleichungen · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…12, Grenze 12 [Pflichtenheft], 1698 verschiedene Anzeigen, 2/2 Muster, Median größte Zahl 45, Median Zeit 18 s, 22 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · x − b = c ×1000 | a · x + b = c ×1000
+── Gleichungen · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…12, Grenze 12 [Pflichtenheft], 1715 verschiedene Anzeigen, 2/2 Muster, Median größte Zahl 44, Median Zeit 18 s, 23 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · x − b = c ×1000 | a · x + b = c ×1000
+── Gleichungen · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…12, Grenze 270 [Absprache], 1754 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 56, Median Zeit 18 s, 26 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (x + a) · b = c ×665 | a · x + b = c ×656 | a · x − b = c ×679
+── Gleichungen · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…270, Grenze 270 [Absprache], 1950 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 117, Median Zeit 24 s, 26 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (x + a) · b = c ×519 | a · x − b = c ×514 | a · x + b = c ×503 | x : a + b = c ×464
+── Gleichungen · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…261, Grenze 270 [Absprache], 1964 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 132, Median Zeit 24 s, 23 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (x + a) · b = c ×495 | a · x + b = c ×502 | x : a + b = c ×519 | a · x − b = c ×484
+── Gleichungen · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 2…180, Grenze 500 [Absprache], 1681 verschiedene Anzeigen, 2/2 Muster, Median größte Zahl 56, Median Zeit 17.5 s, 25 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: x : a − b = c ×1000 | (x + a) · b − c = d ×1000
+── Gleichungen · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 2…360, Grenze 500 [Absprache], 1934 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 84, Median Zeit 25 s, 27 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: x : a − b = c ×653 | (x + a) · b − c = d ×677 | (a · x − b) : c = d ×670
+── Gleichungen · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 2…496, Grenze 500 [Absprache], 1976 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 115, Median Zeit 25 s, 27 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (a · x − b) : c = d ×663 | (x + a) · b − c = d ×674 | x : a − b = c ×663
+── Sachaufgaben · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…11657, Grenze 100000 [Absprache], 1848 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 2480, Median Zeit 31 s, 29 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: gueterzug ×344 | bus ×325 | aepfel ×323 | lager ×340 | buecherei ×355 | klassenfahrt ×313
+── Sachaufgaben · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…34331, Grenze 100000 [Absprache], 1943 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 4536, Median Zeit 36 s, 28 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: klassenfahrt ×333 | aepfel ×321 | gueterzug ×321 | lager ×352 | bus ×332 | buecherei ×341
+── Sachaufgaben · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…56819, Grenze 100000 [Absprache], 1948 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 6653.5, Median Zeit 36 s, 30 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: buecherei ×314 | bus ×363 | aepfel ×351 | klassenfahrt ×331 | gueterzug ×325 | lager ×316
+── Sachaufgaben · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 0…15170, Grenze 100000 [Absprache], 1967 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 324.5, Median Zeit 50 s, 27 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: tankwagen ×354 | baeume ×329 | wanderung ×333 | sitzreihen ×345 | kino ×330 | sparen ×309
+── Sachaufgaben · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 0…15600, Grenze 100000 [Absprache], 1992 verschiedene Anzeigen, 8/8 Muster, Median größte Zahl 685.5, Median Zeit 50 s, 26 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: baeume ×259 | kino ×259 | wanderung ×239 | sparen ×253 | sitzreihen ×248 | flaschen ×234 | ladung ×241 | tankwagen ×267
+── Sachaufgaben · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…16630, Grenze 100000 [Absprache], 1993 verschiedene Anzeigen, 8/8 Muster, Median größte Zahl 835.5, Median Zeit 50 s, 24 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: baeume ×254 | wanderung ×231 | kino ×248 | sitzreihen ×248 | tankwagen ×253 | sparen ×255 | flaschen ×256 | ladung ×255
+── Sachaufgaben · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…1659, Grenze 1000000 [Absprache], 1833 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 636, Median Zeit 78 s, 25 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: schulfest ×675 | rettungsboote ×638 | baustelle ×687
+── Sachaufgaben · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…595686, Grenze 1000000 [Absprache], 1980 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 1101, Median Zeit 86 s, 31 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: druckerei ×340 | lieferung ×346 | baustelle ×345 | jugendherberge ×318 | rettungsboote ×336 | schulfest ×315
+── Sachaufgaben · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…853200, Grenze 1000000 [Absprache], 1986 verschiedene Anzeigen, 6/6 Muster, Median größte Zahl 1250, Median Zeit 86 s, 33 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: druckerei ×345 | lieferung ×361 | schulfest ×315 | jugendherberge ×321 | baustelle ×342 | rettungsboote ×316
+── Fehlersuche · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 0…178, Grenze 500 [Absprache], 1962 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 70, Median Zeit 22 s, 31 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · b + c → a · (b + c) ×412 | a · b − c → a · (b − c) ×426 | a + b · c → (a + b) · c ×403 | a − b · c → (a − b) · c ×378 | a + b : c → (a + b) : c ×381
+── Fehlersuche · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 0…219, Grenze 500 [Absprache], 1985 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 96, Median Zeit 22 s, 30 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a + b · c → (a + b) · c ×407 | a · b − c → a · (b − c) ×419 | a − b · c → (a − b) · c ×392 | a · b + c → a · (b + c) ×393 | a + b : c → (a + b) : c ×389
+── Fehlersuche · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 0…267, Grenze 500 [Absprache], 1996 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 124, Median Zeit 25 s, 29 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a − b · c → (a − b) · c ×417 | a + b : c → (a + b) : c ×432 | a + b · c → (a + b) · c ×394 | a · b − c → a · (b − c) ×368 | a · b + c → a · (b + c) ×389
+── Fehlersuche · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 8…405, Grenze 5000 [Absprache], 1662 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 100, Median Zeit 25 s, 30 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · b² → (a · b)² ×670 | (a + b) · c → a + b · c ×678 | a + bⁿ → a + b · n ×652
+── Fehlersuche · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 0…4005, Grenze 5000 [Absprache], 1869 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 341.5, Median Zeit 31 s, 32 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: (a − b) · c → a − b · c ×388 | (a + b) · c → a + b · c ×376 | a − (b + c) → a − b + c ×415 | a + bⁿ → a + b · n ×405 | a · b² → (a · b)² ×416
+── Fehlersuche · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 0…3951, Grenze 5000 [Absprache], 1866 verschiedene Anzeigen, 5/5 Muster, Median größte Zahl 378, Median Zeit 33 s, 32 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a · b² → (a · b)² ×417 | a + bⁿ → a + b · n ×413 | a − (b + c) → a − b + c ×381 | (a + b) · c → a + b · c ×378 | (a − b) · c → a − b · c ×411
+── Fehlersuche · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 5…322, Grenze 20000 [Absprache], 1974 verschiedene Anzeigen, 2/2 Muster, Median größte Zahl 85, Median Zeit 28 s, 36 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a − b : c → (a − b) : c ×1000 | (a + b)² − c → a² + b² − c ×1000
+── Fehlersuche · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 8…2025, Grenze 20000 [Absprache], 1955 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 153, Median Zeit 33 s, 38 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a − b : c → (a − b) : c ×498 | a² − b : c → (a² − b) : c ×505 | (a + b)² − c → a² + b² − c ×519 | a · (b − c)² → a · b − c² ×478
+── Fehlersuche · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 8…1800, Grenze 20000 [Absprache], 1971 verschiedene Anzeigen, 4/4 Muster, Median größte Zahl 216, Median Zeit 35 s, 40 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches ≠ richtiges Ergebnis: 2000 ok, 0 Fehler
+  OK     Fehlersuche: falsches Ergebnis plausibel: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: a − b : c → (a − b) : c ×514 | (a + b)² − c → a² + b² − c ×480 | a · (b − c)² → a · b − c² ×490 | a² − b : c → (a² − b) : c ×516
+── Großbauwerk · Grundstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…1724, Grenze 5000 [Absprache], 1992 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 350, Median Zeit 55 s, 41 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Gleichung → Potenz ×645 | Sachaufgabe → Potenz ×685 | Term aus Text → Potenz ×670
+── Großbauwerk · Grundstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…1667, Grenze 5000 [Absprache], 1999 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 351, Median Zeit 55 s, 38 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Gleichung → Potenz ×651 | Term aus Text → Potenz ×672 | Sachaufgabe → Potenz ×677
+── Großbauwerk · Grundstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…1721, Grenze 5000 [Absprache], 1997 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 353, Median Zeit 55 s, 37 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Gleichung → Potenz ×660 | Term aus Text → Potenz ×658 | Sachaufgabe → Potenz ×682
+── Großbauwerk · Hauptstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…17521, Grenze 20000 [Absprache], 2000 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 1433.5, Median Zeit 61 s, 47 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Gleichung → Potenz ×641 | Term aus Text → Potenz ×689 | Sachaufgabe → Potenz ×670
+── Großbauwerk · Hauptstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 1…16892, Grenze 20000 [Absprache], 1999 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 1448.5, Median Zeit 61 s, 46 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Sachaufgabe → Potenz ×654 | Term aus Text → Potenz ×682 | Gleichung → Potenz ×664
+── Großbauwerk · Hauptstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 2…17941, Grenze 20000 [Absprache], 2000 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 1517.5, Median Zeit 62 s, 47 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Sachaufgabe → Potenz ×668 | Gleichung → Potenz ×668 | Term aus Text → Potenz ×664
+── Großbauwerk · Expertenstufe · Niveau 1 · Etappe 1–2 ── bestanden  (Lösung 1…17886, Grenze 20000 [Absprache], 2000 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 1541.5, Median Zeit 61 s, 46 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Gleichung → Potenz ×647 | Term aus Text → Potenz ×687 | Sachaufgabe → Potenz ×666
+── Großbauwerk · Expertenstufe · Niveau 2 · Etappe 3–4 ── bestanden  (Lösung 3…17669, Grenze 20000 [Absprache], 2000 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 1556.5, Median Zeit 61 s, 46 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Sachaufgabe → Potenz ×686 | Term aus Text → Potenz ×663 | Gleichung → Potenz ×651
+── Großbauwerk · Expertenstufe · Niveau 3 · ab Etappe 5 ── bestanden  (Lösung 1…17593, Grenze 20000 [Absprache], 2000 verschiedene Anzeigen, 3/3 Muster, Median größte Zahl 1529, Median Zeit 61 s, 46 ms)
+  OK     Erzeugung ohne Programmfehler: 2000 ok, 0 Fehler
+  OK     Pflichtfelder vollständig: 2000 ok, 0 Fehler
+  OK     Lösung ist natürliche Zahl: 2000 ok, 0 Fehler
+  OK     Lösung im Zahlenraum: 2000 ok, 0 Fehler
+  OK     Kein negatives Zwischenergebnis: 2000 ok, 0 Fehler
+  OK     Keine Division durch 0: 2000 ok, 0 Fehler
+  OK     Alle Divisionen gehen auf: 2000 ok, 0 Fehler
+  OK     Keine Division mit Rest: 2000 ok, 0 Fehler
+  OK     Anzeige neu eingelesen = Lösung: 2000 ok, 0 Fehler
+  OK     Rechenweg rechnet richtig: 2000 ok, 0 Fehler
+  OK     Rechenweg enthält das Ergebnis: 2000 ok, 0 Fehler
+  OK     Keine direkte Wiederholung der Anzeige: 2000 ok, 0 Fehler
+  OK     Schreibweise (· : − Hochstellung, Tausender): 2000 ok, 0 Fehler
+  OK     Tipp verrät keinen Rechenweg: 2000 ok, 0 Fehler
+  OK     Vorgaben des Musters / der Schablone: 2000 ok, 0 Fehler
+  OK     Großbauwerk: Stufe + 1: 2000 ok, 0 Fehler
+  OK     Muster passt zum Niveau: 2000 ok, 0 Fehler
+  OK     Zeitschätzung zwischen 10 und 100 s: 2000 ok, 0 Fehler
+  Muster: Term aus Text → Potenz ×674 | Gleichung → Potenz ×660 | Sachaufgabe → Potenz ×666
+
+── Sachaufgaben-Schablonen (20, gefordert ≥ 15) ──
+  OK     bus [G] kam 1020× vor
+  OK     klassenfahrt [G] kam 977× vor
+  OK     lager [G] kam 1008× vor
+  OK     buecherei [G] kam 1010× vor
+  OK     aepfel [G] kam 995× vor
+  OK     gueterzug [G] kam 990× vor
+  OK     tankwagen [H] kam 874× vor
+  OK     sitzreihen [H] kam 841× vor
+  OK     baeume [H] kam 842× vor
+  OK     flaschen [H] kam 490× vor
+  OK     ladung [H] kam 496× vor
+  OK     kino [H] kam 837× vor
+  OK     sparen [H] kam 817× vor
+  OK     wanderung [H] kam 803× vor
+  OK     rettungsboote [E] kam 1290× vor
+  OK     schulfest [E] kam 1305× vor
+  OK     lieferung [E] kam 707× vor
+  OK     baustelle [E] kam 1374× vor
+  OK     jugendherberge [E] kam 639× vor
+  OK     druckerei [E] kam 685× vor
+
+── Anstieg über die Etappen (Median größte Zahl in Aufgabe oder Ergebnis | Median geschätzte Zeit je Niveau 1 / 2 / 3) ──
+  OK     Vorrangregeln · Grundstufe: Zahl 48 / 79.5 / 97 | Zeit 12 / 15 / 15 s | Muster 5 / 5 / 5
+  OK     Vorrangregeln · Hauptstufe: Zahl 178 / 591 / 919.5 | Zeit 27 / 41 / 47 s | Muster 3 / 4 / 4
+  OK     Vorrangregeln · Expertenstufe: Zahl 114.5 / 1014 / 1192.5 | Zeit 31 / 42 / 46 s | Muster 3 / 4 / 4
+  OK     Potenzen · Grundstufe: Zahl 49 / 64 / 64 | Zeit 10 / 10 / 10 s | Muster 4 / 4 / 4
+  OK     Potenzen · Hauptstufe: Zahl 125 / 436 / 490.5 | Zeit 10 / 10 / 10 s | Muster 3 / 3 / 3
+  OK     Potenzen · Expertenstufe: Zahl 28 / 170 / 219 | Zeit 18 / 27 / 32 s | Muster 2 / 4 / 4
+  OK     Vorteilhaft rechnen · Grundstufe: Zahl 1400 / 3500 / 6700 | Zeit 19 / 19 / 19 s | Muster 1 / 1 / 1
+  OK     Vorteilhaft rechnen · Hauptstufe: Zahl 1200 / 3000 / 4500 | Zeit 22 / 22 / 22 s | Muster 3 / 3 / 3
+  OK     Vorteilhaft rechnen · Expertenstufe: Zahl 954 / 3000 / 4100 | Zeit 23.5 / 25 / 29 s | Muster 2 / 3 / 3
+  OK     Term aus Text · Grundstufe: Zahl 104 / 237.5 / 400 | Zeit 15 / 19 / 20 s | Muster 8 / 8 / 8
+  OK     Term aus Text · Hauptstufe: Zahl 128 / 315 / 504.5 | Zeit 25 / 32 / 35 s | Muster 6 / 7 / 7
+  OK     Term aus Text · Expertenstufe: Zahl 70 / 144 / 200 | Zeit 23 / 37 / 42 s | Muster 3 / 6 / 6
+  OK     Gleichungen · Grundstufe: Zahl 28 / 45 / 44 | Zeit 15 / 18 / 18 s | Muster 2 / 2 / 2
+  OK     Gleichungen · Hauptstufe: Zahl 56 / 117 / 132 | Zeit 18 / 24 / 24 s | Muster 3 / 4 / 4
+  OK     Gleichungen · Expertenstufe: Zahl 56 / 84 / 115 | Zeit 17.5 / 25 / 25 s | Muster 2 / 3 / 3
+  OK     Sachaufgaben · Grundstufe: Zahl 2480 / 4536 / 6653.5 | Zeit 31 / 36 / 36 s | Muster 6 / 6 / 6
+  OK     Sachaufgaben · Hauptstufe: Zahl 324.5 / 685.5 / 835.5 | Zeit 50 / 50 / 50 s | Muster 6 / 8 / 8
+  OK     Sachaufgaben · Expertenstufe: Zahl 636 / 1101 / 1250 | Zeit 78 / 86 / 86 s | Muster 3 / 6 / 6
+  OK     Fehlersuche · Grundstufe: Zahl 70 / 96 / 124 | Zeit 22 / 22 / 25 s | Muster 5 / 5 / 5
+  OK     Fehlersuche · Hauptstufe: Zahl 100 / 341.5 / 378 | Zeit 25 / 31 / 33 s | Muster 3 / 5 / 5
+  OK     Fehlersuche · Expertenstufe: Zahl 85 / 153 / 216 | Zeit 28 / 33 / 35 s | Muster 2 / 4 / 4
+
+── Eingabeprüfung ──
+  OK     „7" wird als richtig erkannt
+  OK     Führende Nullen werden ignoriert („007")
+  OK     Leere Eingabe wird nicht bewertet
+  OK     „8" wird als falsch erkannt
+  OK     „0" ist eine gültige Eingabe
+  OK     „000" wird als 0 gelesen
+  OK     Nur Ziffern werden angenommen („1 2", „-3")
+
+── Noch offen (folgt in späteren Schritten) ──
+  OFFEN  9.4 Sperrlogik – zusätzlicher Handtest am Gerät – manuell. Automatisch geprüft unter „Spielablauf". Am iPad zusätzlich: falsche Eingabe machen, Countdown läuft. Seite neu laden, Tab schließen und neu öffnen. Die Sperre muss mit der verbleibenden Zeit weiterlaufen, die Tastatur bleibt gesperrt.
+  OFFEN  9.6 Performance 15 000 Blöcke ≥ 50 fps – Schritt 3. Benötigt die 3D-Welt (js/welt.js).
+  OFFEN  9.7 Manuelle Checkliste (Hochformat, iOS-Tastatur, Textgrößen, Endlosmodus, Neuanfang) – Schritt 2–4. Erste Punkte ab Schritt 2 im Browser prüfbar, abschließend am iPad.
+
+── Spielablauf (Schritt 2) ──
+  [9.4 Sperre]
+  OK     Falsche Eingabe startet 15-s-Sperre mit Zeitstempel  (sperreBis = 1700000015000)
+  OK     Nach „Neuladen" (speichern → laden) ist die Sperre noch aktiv
+  OK     Restzeit läuft weiter (nach 5 s noch 10 s)  (Rest 10000 ms)
+  OK     Aufgabe bleibt stehen, gleiche Zahlen
+  OK     Während der Sperre wird keine Eingabe bewertet
+  OK     Nach 15 s ist die Eingabe frei
+  OK     Nach langer Pause (Tab zu, 1 min später) ist die Sperre abgelaufen
+  OK     Echter localStorage: Zeitstempel übersteht Speichern und Laden
+  [Fehlerlogik]
+  OK     Zweiter Fehler öffnet die Lösungskarte (ohne Sperre)
+  OK     Während der Karte wird keine Eingabe bewertet
+  OK     Button vor 8 s wirkungslos
+  OK     Nach 8 s: derselbe Typ mit neuen Zahlen
+  OK     Lösungskarte baut nichts, Aufgabe zählt nicht als gelöst
+  OK     Zähler: jede falsche Eingabe = 1 falsch
+  OK     Lösungskarte bleibt nach Neuladen offen, 8 s zählen weiter
+  OK     Leere Eingabe wird nicht bewertet (kein Fehler, keine Sperre)
+  [Stufen]
+  OK     3 richtige in Folge → Stufe hoch (H → E)
+  OK     Meldung „Du bist jetzt in der Expertenstufe!"
+  OK     Expertenstufe ist die höchste Stufe
+  OK     2 Aufgaben in Folge mit Fehler → Stufe runter (H → G)
+  OK     Neutrale Meldung „Wir nehmen ein etwas kleineres Baumaß."
+  OK     Fehler, richtig, Fehler → keine Änderung (nicht in Folge)
+  OK     Manuelle Wahl: 5 Aufgaben ohne Automatik (5 richtige → bleibt G)
+  OK     Danach greift die Automatik wieder
+  OK     Unberührte Aufgabe wird bei manueller Wahl in der neuen Stufe neu gestellt
+  OK     Nach einem Fehlversuch bleibt die Aufgabe stehen (keine Flucht aus der Sperre)
+  [Tipp und hängt]
+  OK     Nach einem Fehler dieses Typs noch kein Tipp-Knopf
+  OK     Ab dem zweiten Fehler desselben Typs erscheint der Tipp-Knopf
+  OK     Tipp-Zähler gilt über den gespeicherten Spielstand (nach Neuladen)
+  OK     Zwei Fehler in Folge: noch kein „hängt"
+  OK     Drei Fehler in Folge → „hängt"-Symbol
+  OK     Richtige Eingabe nimmt „hängt" zurück
+  [Etappen]
+  OK     200 simulierte Spiele: jede Etappe hat lauter verschiedene Typen (5 bzw. 6)
+  OK     Je zwei aufeinanderfolgende Etappen enthalten alle sieben Typen
+  OK     Typ der letzten Aufgabe wird nie direkt wiederholt (ohne Lösungskarte)
+  OK     Etappe 1–4: 5 Aufgaben; Etappe 5–7 und Endlos-Blöcke: 6 Aufgaben + Großbauwerk
+  OK     Jede gelöste Aufgabe baut genau einen Abschnitt – auf jeder Stufe
+  OK     Nach Etappe 4 Meldung „Mindestziel", nach Etappe 7 Endlosmodus
+  OK     Bauplan: Anzeigetafel (Etappe 6) und Zugbrücke (Etappe 7) werden gebaut
+  OK     Endlosmodus: neue Wachstumsstufe alle 12 Aufgaben  (Kleinstadt, Stadt, Metropole)
+  [Speicherung]
+  OK     Kompletter Spielstand übersteht Speichern und Laden unverändert
+  OK     Schlüssel mit Präfix „zahlenstadt."
+  OK     Stand mit anderer Version wird erkannt und verworfen
+  OK     Beschädigter Stand blockiert das Spiel nicht
+  [Abschlusscode]
+  OK     6 Zeichen aus Großbuchstaben und Ziffern (ohne 0, O, 1, I)
+  OK     5 000 Zufallsstände: codeLesen liefert Etappe, Stufe, richtig, falsch zurück
+  OK     Zähler werden bei 255 gedeckelt
+  OK     Jedes falsch abgeschriebene Einzelzeichen fällt auf (300 Codes × 6 Stellen × 31 Zeichen)
+  OK     Ausgedachte Codes fallen auf (von 100 000 Zufallscodes gültig: 285)  (0.29 %)
+  [Anstieg]
+  OK     Tutorial und Etappe 1–2 auf Niveau 1 (Einstieg)
+  OK     Etappe 3–4 auf Niveau 2 (Aufbau)
+  OK     Ab Etappe 5, im Endlosmodus und bei Großbauwerken: Niveau 3 (voller Zahlenraum)
+  [9.5 Simulation]
+  OK     Schneller Schüler, Obergrenze 100 s je Aufgabe (Pflichtenheft 9.5): Etappe 4 fertig nach 35,0 min (≤ 35 min, inkl. Tutorial)  (20 Aufgaben + Tutorial)
+  OK     Schneller Schüler mit geschätzter Zeit je Aufgabe (300 Spiele): Etappe 4 fertig nach 12,2 min (Median; 9,8–15,1 min)  (Etappe 7 fertig nach 28,6 min (Median; 24,9–33,2 min), danach Endlosmodus)
+  OK     Schwacher Schüler (Muster R R F F R F F …): nach Aufgabe 4 auf Grundstufe  (Stufen: H H H G G G)
+  OK     Bleibt danach stabil auf G (Aufgaben 4–40)
+  OK     Kommt auf G voran: 40 Aufgaben → 40 Bauabschnitte, Etappe 7 erreicht  (Richtigquote je Eingabe 61 % (ohne Tutorial))
+GESAMT (Generatoren + Spielablauf): BESTANDEN
