@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1c231f">
+<title>Zahlenstadt</title>
+<script>
+/*
+ * Ladeprüfung und Drehhinweis – absichtlich direkt in index.html, damit beides
+ * auch dann funktioniert, wenn css/ oder js/ fehlen (z. B. unvollständiger Upload).
+ */
+(function () {
+  'use strict';
+  var fehlend = [], laufzeitfehler = [], drehhinweisAus = false;
+  var GLOBALE = {
+    Aufgaben: 'js/aufgaben.js', Bauplan: 'js/bauplan.js', Spiel: 'js/spiel.js', Pixelschrift: 'js/pixelschrift.js',
+    Texturen: 'js/texturen.js', Tastatur: 'js/tastatur.js', Platzhalter: 'js/platzhalter.js'
+  };
+
+  function merke(liste, eintrag) {
+    if (eintrag) eintrag = String(eintrag).split('?')[0];
+    if (eintrag && liste.indexOf(eintrag) < 0) liste.push(eintrag);
+  }
+
+  // Datei nicht ladbar (404, offline) oder Programmfehler vor dem Spielstart
+  window.addEventListener('error', function (e) {
+    var ziel = e.target;
+    if (ziel && ziel !== window && (ziel.tagName === 'SCRIPT' || ziel.tagName === 'LINK')) {
+      merke(fehlend, ziel.getAttribute('src') || ziel.getAttribute('href'));
+      zeigeFehler();
+    } else if (!window.ZAHLENSTADT_BEREIT && e.message) {
+      var ort = e.filename ? ' (' + e.filename.split('/').slice(-2).join('/') + ', Zeile ' + e.lineno + ')' : '';
+      merke(laufzeitfehler, e.message + ort);
+      zeigeFehler();
+    }
+  }, true);
+
+  window.addEventListener('load', function () {
+    var css = window.getComputedStyle(document.documentElement).getPropertyValue('--papier');
+    if (!css) merke(fehlend, 'css/spiel.css');
+    for (var name in GLOBALE) if (!window[name]) merke(fehlend, GLOBALE[name]);
+    if (!window.ZAHLENSTADT_BEREIT || fehlend.length) zeigeFehler();
+  });
+
+  function zeigeFehler() {
+    if (!document.body) { document.addEventListener('DOMContentLoaded', zeigeFehler); return; }
+    var box = document.getElementById('ladefehler');
+    if (!box) {
+      box = document.createElement('div');
+      box.id = 'ladefehler';
+      box.setAttribute('role', 'alert');
+      box.style.cssText = 'position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:24px;' +
+        'background:#1c231f;color:#f7f1e3;font:17px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;';
+      document.body.appendChild(box);
+    }
+    var zeilen = fehlend.map(function (d) { return '<li>Datei fehlt oder ist nicht erreichbar: <code style="background:#2f3a34;padding:1px 6px">' + d + '</code></li>'; })
+      .concat((fehlend.length ? [] : laufzeitfehler).map(function (t) { return '<li>Programmfehler: <code style="background:#2f3a34;padding:1px 6px">' + t.replace(/</g, '&lt;') + '</code></li>'; }));
+    if (!zeilen.length) zeilen.push('<li>Das Spiel ist nicht gestartet.</li>');
+    box.innerHTML = '<div style="max-width:640px"><h1 style="font-size:26px;margin:0 0 12px">Zahlenstadt konnte nicht geladen werden</h1>' +
+      '<ul style="margin:0 0 16px;padding-left:20px">' + zeilen.join('') + '</ul>' +
+      '<p style="margin:0 0 16px;color:#c9d2c4">Bitte prüfen, ob die Ordner <b>css</b> und <b>js</b> vollständig neben <b>index.html</b> liegen ' +
+      '(auf GitHub: gleiche Groß- und Kleinschreibung). Danach neu laden.</p>' +
+      '<button type="button" onclick="location.reload()" style="font:inherit;font-weight:700;padding:10px 18px;border:3px solid #2b241c;background:#5d9b3a;color:#fff;cursor:pointer">Neu laden</button></div>';
+    var drehen = document.getElementById('drehen');
+    if (drehen) drehen.hidden = true;
+  }
+
+  // Drehhinweis nur auf Touchgeräten im Hochformat – nie auf Laptop oder Desktop
+  function istTouchgeraet() {
+    return !!(window.matchMedia && window.matchMedia('(pointer: coarse)').matches) || ('ontouchstart' in window);
+  }
+  function pruefeDrehen() {
+    var el = document.getElementById('drehen');
+    if (!el) return;
+    try { drehhinweisAus = drehhinweisAus || window.sessionStorage.getItem('zahlenstadt.drehhinweisAus') === '1'; } catch (err) { /* ohne sessionStorage nur für diese Seite */ }
+    el.hidden = !(istTouchgeraet() && window.innerHeight > window.innerWidth && !drehhinweisAus && !document.getElementById('ladefehler'));
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    var weiter = document.getElementById('drehenWeiter');
+    if (weiter) weiter.addEventListener('click', function () {
+      drehhinweisAus = true;
+      try { window.sessionStorage.setItem('zahlenstadt.drehhinweisAus', '1'); } catch (err) { /* nichts */ }
+      pruefeDrehen();
+    });
+    pruefeDrehen();
+  });
+  window.addEventListener('resize', pruefeDrehen);
+  window.addEventListener('orientationchange', pruefeDrehen);
+})();
+</script>
+<link rel="stylesheet" href="css/spiel.css">
+</head>
+<body>
+<div id="app" class="app">
+
+  <!-- Statusleiste (Abschnitt 8) -->
+  <header class="statusleiste" id="statusleiste">
+    <div class="marke" id="marke" aria-hidden="true"></div>
+    <div class="st st-codename"><span class="st-label">Codename</span><span class="st-wert" id="stCodename"></span></div>
+    <div class="st"><span class="st-label">Stufe</span><span class="st-wert" id="stStufe"></span></div>
+    <div class="st st-etappe"><span class="st-label">Etappe</span><span class="st-wert" id="stEtappe"></span></div>
+    <div class="st st-zahl richtig"><span class="st-label">richtig</span><span class="st-wert"><i aria-hidden="true">✓</i><span id="stRichtig">0</span></span></div>
+    <div class="st st-zahl falsch"><span class="st-label">falsch</span><span class="st-wert"><i aria-hidden="true">✗</i><span id="stFalsch">0</span></span></div>
+    <div class="st st-typ"><span class="st-label">Aufgabe</span><span class="st-wert" id="stTyp"></span></div>
+    <div class="haengt" id="stHaengt" hidden><span id="haengtSymbol"></span>hängt</div>
+    <button type="button" class="zahnrad" id="menueKnopf" aria-label="Menü"></button>
+  </header>
+
+  <main class="buehne">
+    <!-- Stadt (Schritt 2: Platzhalter) -->
+    <section class="welt" id="welt" aria-label="Deine Stadt"></section>
+    <div class="meldungen" id="meldungen" aria-live="polite"></div>
+
+    <!-- Aufgabenkarte mit Tastatur -->
+    <section class="werkbank" id="werkbank" aria-label="Aufgabe">
+      <div class="werkbank-kopf">
+        <span class="typ-chip" id="typChip"></span>
+        <span class="bauziel" id="bauziel"></span>
+        <span class="pips" id="pips" aria-hidden="true"></span>
+        <button type="button" class="tipp-knopf" id="tippKnopf" hidden>Tipp</button>
+      </div>
+
+      <ol class="coach" id="coach" hidden>
+        <li><b>Rechnen:</b> im Hefter. Hier tippst du nur das Ergebnis und drückst <b>Prüfen</b>.</li>
+        <li><b>Falsch?</b> 15 Sekunden Pause zum Nachrechnen – dann derselbe Versuch noch einmal.</li>
+        <li><b>Richtig?</b> Deine Stadt bekommt einen neuen Bauabschnitt.</li>
+      </ol>
+
+      <article class="aufgabenkarte" id="aufgabenkarte">
+        <div class="aufgabe" id="aufgabe"></div>
+      </article>
+
+      <div class="eingabezeile">
+        <span class="eingabe-label">Ergebnis</span>
+        <div class="eingabefeld leer" id="eingabefeld" role="textbox" aria-readonly="true" aria-label="Ergebnis"></div>
+      </div>
+      <div class="rueckmeldung" id="rueckmeldung" aria-live="polite"></div>
+
+      <div class="tastatur-huelle">
+        <div class="tastatur" id="tastatur"></div>
+        <div class="sperre" id="sperre" hidden>
+          <div class="sperre-zahl" id="sperreZahl"></div>
+          <div class="sperre-text">Sekunden Pause – rechne nach</div>
+          <div class="sperre-leiste"><i id="sperreBalken"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Endseite (Abschnitt 2) -->
+    <section class="endkarte" id="endkarte" hidden>
+      <div class="end-titel" id="titelEnde"></div>
+      <p class="end-codename" id="endCodename"></p>
+      <dl class="endwerte">
+        <div><dt>Etappe</dt><dd id="endEtappe"></dd></div>
+        <div><dt>Stufe</dt><dd id="endStufe"></dd></div>
+        <div><dt>richtig</dt><dd class="richtig">✓ <span id="endRichtig"></span></dd></div>
+        <div><dt>falsch</dt><dd class="falsch">✗ <span id="endFalsch"></span></dd></div>
+        <div><dt>Bauabschnitte</dt><dd id="endBauten"></dd></div>
+      </dl>
+      <div class="code-block">
+        <span class="code-label">Dein Abschlusscode</span>
+        <div class="code gross" id="endCode"></div>
+        <span class="code-hinweis">Schreib ihn in deinen Hefter oder zeig ihn deiner Lehrkraft.</span>
+      </div>
+      <button type="button" class="knopf holz" id="weiterspielen">Weiterspielen</button>
+    </section>
+  </main>
+
+  <!-- Startschirm -->
+  <div class="startschirm" id="startschirm" hidden>
+    <div class="start-inhalt">
+      <h1 class="logo" id="logo"></h1>
+      <p class="start-unterzeile">Rechne im Hefter. Tippe das Ergebnis. Deine Stadt wächst.</p>
+      <div class="codename-karte">
+        <span class="codename-label">Dein Codename</span>
+        <strong class="codename" id="startCodename"></strong>
+        <button type="button" class="knopf holz" id="wuerfeln"><span class="symbol" id="wuerfelSymbol"></span>Neu würfeln</button>
+      </div>
+      <p class="start-hinweis">Du startest in der <b>Hauptstufe</b>. Das Spiel passt die Stufe an dich an.</p>
+      <p class="start-warnung" id="startWarnung" hidden>Ein alter Spielstand passte nicht zu dieser Version und wurde verworfen.</p>
+      <button type="button" class="knopf gras gross" id="losGehts">Los geht’s</button>
+    </div>
+  </div>
+
+  <!-- Lösungskarte nach dem zweiten Fehler (Abschnitt 4) -->
+  <div class="modal-huelle" id="loesungskarte" hidden>
+    <div class="modal karte-loesung" role="dialog" aria-modal="true" aria-labelledby="titelLoesung">
+      <div class="modal-titel" id="titelLoesung"></div>
+      <div class="lk-aufgabe" id="lkAufgabe"></div>
+      <div class="lk-loesung">Lösung: <strong id="lkLoesung"></strong></div>
+      <div class="lk-rechenweg" id="lkRechenweg"></div>
+      <p class="lk-hinweis">Lies den Rechenweg genau und übertrage ihn in deinen Hefter. Danach kommt eine neue Aufgabe desselben Typs.</p>
+      <button type="button" class="knopf gras" id="lkWeiter" disabled>Verstanden – neue Aufgabe<span id="lkWarten"></span></button>
+    </div>
+  </div>
+
+  <!-- Menü -->
+  <div class="modal-huelle" id="menue" hidden>
+    <div class="modal menue" role="dialog" aria-modal="true" aria-labelledby="titelMenue">
+      <div class="modal-kopf">
+        <div class="modal-titel" id="titelMenue"></div>
+        <button type="button" class="schliessen" data-schliessen aria-label="Menü schließen">×</button>
+      </div>
+      <section>
+        <h3>Stufe</h3>
+        <div class="stufenwahl" id="stufenwahl"></div>
+        <p class="klein" id="menueAutomatik"></p>
+      </section>
+      <section>
+        <h3>Abschlusscode</h3>
+        <div class="code" id="menueCode"></div>
+        <p class="klein">Den Code zeigst du am Ende der Stunde deiner Lehrkraft.</p>
+      </section>
+      <section class="menue-zeile">
+        <h3>Ton</h3>
+        <button type="button" class="schalter" id="tonSchalter" role="switch" aria-checked="false"><i></i><span>aus</span></button>
+      </section>
+      <section class="menue-aktionen">
+        <button type="button" class="knopf holz" id="stundeBeenden">Stunde beenden</button>
+        <button type="button" class="knopf leise" id="neuAnfangen">Neu anfangen</button>
+      </section>
+    </div>
+  </div>
+
+  <!-- Rückfrage -->
+  <div class="modal-huelle oben" id="rueckfrage" hidden>
+    <div class="modal klein-modal" role="alertdialog" aria-modal="true" aria-labelledby="rueckfrageTitel">
+      <h2 id="rueckfrageTitel"></h2>
+      <p id="rueckfrageText"></p>
+      <div class="knopfreihe">
+        <button type="button" class="knopf leise" data-schliessen>Abbrechen</button>
+        <button type="button" class="knopf gras" id="rueckfrageJa"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tipp -->
+  <div class="modal-huelle" id="tippkarte" hidden>
+    <div class="modal klein-modal" role="dialog" aria-modal="true" aria-labelledby="tippTitel">
+      <h2 id="tippTitel">Tipp</h2>
+      <p class="tipp-text" id="tippText"></p>
+      <div class="knopfreihe"><button type="button" class="knopf gras" data-schliessen>Alles klar</button></div>
+    </div>
+  </div>
+
+  <!-- Hochformat -->
+  <div class="drehen" id="drehen" hidden>
+    <div class="drehen-geraet" aria-hidden="true"><i></i></div>
+    <p><b>Bitte iPad drehen</b><br>Zahlenstadt braucht das Querformat.</p>
+    <button type="button" class="drehen-weiter" id="drehenWeiter">Trotzdem weiter</button>
+  </div>
+</div>
+
+<script src="js/aufgaben.js"></script>
+<script src="js/bauplan.js"></script>
+<script src="js/spiel.js"></script>
+<script src="js/pixelschrift.js"></script>
+<script src="js/texturen.js"></script>
+<script src="js/tastatur.js"></script>
+<script src="js/platzhalter.js"></script>
+<script src="js/oberflaeche.js"></script>
+</body>
+</html>

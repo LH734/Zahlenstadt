@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zahlenstadt · Selbsttest</title>
+<style>
+  :root {
+    --grund: #f5f1e8;
+    --karte: #fffdf8;
+    --tinte: #1f2a22;
+    --leise: #5f6b61;
+    --linie: #ddd5c4;
+    --gruen: #2f7d3b;
+    --gruen-hell: #e3f1e0;
+    --rot: #b3261e;
+    --rot-hell: #fbe4e1;
+    --bernstein: #9a6400;
+    --bernstein-hell: #fbefd5;
+    --himmel: #2d6a9f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--grund); color: var(--tinte);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px; }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 20px; margin: 40px 0 12px; }
+  h3 { font-size: 16px; margin: 0; }
+  .meta { color: var(--leise); font-size: 13px; }
+  .kopf { display: flex; gap: 20px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
+  .status {
+    font-weight: 700; font-size: 18px; padding: 10px 18px; border-radius: 10px;
+    background: var(--bernstein-hell); color: var(--bernstein); white-space: nowrap;
+  }
+  .status.ok { background: var(--gruen-hell); color: var(--gruen); }
+  .status.fehler { background: var(--rot-hell); color: var(--rot); }
+  .balken { height: 6px; background: var(--linie); border-radius: 3px; margin: 16px 0 0; overflow: hidden; }
+  .balken > div { height: 100%; width: 0; background: var(--himmel); transition: width .15s; }
+
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; background: var(--karte); border: 1px solid var(--linie); border-radius: 10px; overflow: hidden; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--linie); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--leise); background: #f0eadc; }
+  tr:last-child td { border-bottom: 0; }
+  td.zahl, th.zahl { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .matrix td.zelle { font-weight: 600; }
+  .matrix a { color: inherit; text-decoration: none; display: block; }
+  .ok-text { color: var(--gruen); }
+  .fehler-text { color: var(--rot); }
+  .offen-text { color: var(--bernstein); }
+  .klein { font-size: 12px; color: var(--leise); font-weight: 400; }
+
+  .typ { margin-top: 36px; }
+  .stufen { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 14px; margin-top: 12px; }
+  .karte { background: var(--karte); border: 1px solid var(--linie); border-radius: 10px; padding: 14px 16px; }
+  .karte.fehler { border-color: var(--rot); }
+  .karte header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+  .pruefliste { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+  .pruefliste li { display: grid; grid-template-columns: 18px 1fr auto; gap: 6px; padding: 2px 0; }
+  .pruefliste .detail { grid-column: 2 / 4; color: var(--rot); font-size: 12px; word-break: break-word; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; margin: 10px 0 0; }
+  .chip { font-size: 12px; background: #efe8d8; border-radius: 99px; padding: 1px 8px; }
+  details { margin-top: 10px; }
+  summary { cursor: pointer; font-size: 13px; color: var(--himmel); }
+
+  .beispiel { border-top: 1px dashed var(--linie); padding: 10px 0 4px; }
+  .beispiel .muster { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--leise); }
+  .aufgabe { font-size: 17px; }
+  .aufgabe .term { font-size: 22px; margin: 4px 0; }
+  .aufgabe p { margin: 4px 0; }
+  .aufgabe .auftrag { color: var(--leise); font-size: 14px; }
+  .rechenweg { background: #f6f2e9; border-radius: 8px; padding: 6px 10px; margin-top: 6px; font-size: 14px; }
+  .rechenweg p { margin: 3px 0; }
+  .rechenweg .hinweis { color: var(--leise); }
+  .loesung { font-weight: 700; color: var(--gruen); }
+  .tipp { font-size: 12px; color: var(--leise); margin-top: 4px; }
+  sup { font-size: .65em; }
+
+  .offen li { margin-bottom: 8px; }
+  pre {
+    background: #1f2a22; color: #e9efe6; padding: 16px; border-radius: 10px; overflow: auto;
+    font: 12px/1.45 ui-monospace, "SF Mono", Menlo, monospace; max-height: 520px;
+  }
+  .codepruefer { max-width: 560px; }
+  .codepruefer label { font-weight: 600; display: block; margin-bottom: 6px; }
+  .codezeile { display: flex; gap: 8px; margin-bottom: 8px; }
+  .codezeile input { font: 600 22px/1 ui-monospace, Menlo, monospace; letter-spacing: .12em; text-transform: uppercase; padding: 8px 10px; border: 2px solid var(--linie); border-radius: 8px; width: 12ch; }
+  button {
+    font: inherit; background: var(--tinte); color: #fff; border: 0; border-radius: 8px; padding: 6px 14px; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="kopf">
+    <div>
+      <h1>Zahlenstadt · Selbsttest</h1>
+      <div class="meta" id="meta">Test läuft …</div>
+    </div>
+    <div class="status" id="status">läuft …</div>
+  </div>
+  <div class="balken"><div id="balken"></div></div>
+
+  <h2>Übersicht: Generator × Stufe × Niveau</h2>
+  <p class="meta">Niveau 1 = Etappe 1–3 (Einstieg) · Niveau 2 = Etappe 4–5 (Aufbau) · Niveau 3 = ab Etappe 6 (voller Zahlenraum). Je Feld 2 000 Läufe.</p>
+  <div class="scroll"><table class="matrix" id="matrix"></table></div>
+  <p class="meta">Grenzen: <strong>Pflichtenheft</strong> = Zahlenraum steht in Abschnitt 3 · <strong>Absprache</strong> = im Pflichtenheft nicht angegeben, mit der Lehrkraft abgestimmt.</p>
+
+  <h2>Anstieg über die Etappen</h2>
+  <p class="meta">Median der größten Zahl (in der Aufgabe oder als Ergebnis) und Median der geschätzten Bearbeitungszeit je Niveau. Die Zeit ist eine Schätzung aus den Rechenschritten (Kopfrechnen ab 3 s, schriftlich 25–50 s je Schritt, plus Lesen und Eintippen; 10–100 s).</p>
+  <div class="scroll"><table id="anstieg"><tr><td class="klein">läuft …</td></tr></table></div>
+
+  <div id="details"></div>
+
+  <h2>Sachaufgaben-Schablonen</h2>
+  <div class="scroll"><table id="schablonen"></table></div>
+
+  <h2>Eingabeprüfung (Abschnitt 4)</h2>
+  <div class="scroll"><table id="eingabe"></table></div>
+
+  <h2>Spielablauf: Sperre (9.4), Fehlerlogik, Stufen, Etappen, Speicherung, Abschlusscode</h2>
+  <div class="scroll"><table id="spielablauf"><tr><td class="klein">läuft nach den Generatoren …</td></tr></table></div>
+
+  <h2>Simulation (9.5): schneller Schüler</h2>
+  <div class="scroll"><table id="simSchnell"></table></div>
+
+  <h2>Simulation (9.5): schwacher Schüler, Aufgabe für Aufgabe</h2>
+  <p class="meta">Muster je Aufgabe: R R F F R F F R F F … · F = erste Eingabe falsch, nach der Sperre richtig.</p>
+  <div class="scroll"><table id="simulation"></table></div>
+
+  <h2>Abschlusscode prüfen</h2>
+  <div class="karte codepruefer">
+    <label for="codeEingabe">Code der Schülerin oder des Schülers</label>
+    <div class="codezeile">
+      <input id="codeEingabe" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="9" placeholder="z. B. 7KQ2MX">
+      <button id="codeKnopf" type="button">Entschlüsseln</button>
+    </div>
+    <div id="codeErgebnis" class="meta"></div>
+  </div>
+
+  <h2>Noch offen</h2>
+  <ul class="offen" id="offen"></ul>
+
+  <h2>Textprotokoll <button id="kopieren" type="button">Kopieren</button></h2>
+  <pre id="protokoll">…</pre>
+</main>
+
+<script src="../js/aufgaben.js"></script>
+<script src="../js/bauplan.js"></script>
+<script src="../js/spiel.js"></script>
+<script src="selbsttest.js"></script>
+<script src="spieltest.js"></script>
+<script id="codeLesen">
+/*
+ * codeLesen(code) – entschlüsselt den Abschlusscode (Kodierung: siehe Kopf von js/spiel.js).
+ * Unabhängig von js/spiel.js geschrieben. Groß-/Kleinschreibung, Leerzeichen und
+ * Bindestriche sind egal.
+ * Rückgabe: { gueltig: true, etappe, etappeText, stufe, richtig, falsch }
+ *        oder { gueltig: false, grund }
+ */
+function codeLesen(code) {
+  const ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
+  const MOD = 33554432;                         // 2^25
+  const FAKTOR = 11400713;
+  const zeichen = String(code || '').toUpperCase().replace(/[\s-]/g, '');
+  if (zeichen.length !== 6) return { gueltig: false, grund: 'Der Code muss genau 6 Zeichen haben.' };
+  const w = zeichen.split('').map(c => ALPHABET.indexOf(c));
+  if (w.some(v => v < 0)) return { gueltig: false, grund: 'Unerlaubtes Zeichen. Erlaubt sind 2–9 und A–Z ohne I und O.' };
+  if ((w[0] + 3 * w[1] + 5 * w[2] + 7 * w[3] + 9 * w[4]) % 32 !== w[5]) {
+    return { gueltig: false, grund: 'Prüfziffer passt nicht: falsch abgeschrieben oder ausgedacht.' };
+  }
+  // Kehrwert des Faktors modulo 2^25 (erweiterter euklidischer Algorithmus)
+  let [r0, r1, s0, s1] = [MOD, FAKTOR, 0, 1];
+  while (r1 !== 0) {
+    const q = Math.floor(r0 / r1);
+    [r0, r1] = [r1, r0 - q * r1];
+    [s0, s1] = [s1, s0 - q * s1];
+  }
+  const kehrwert = ((s0 % MOD) + MOD) % MOD;
+  let y = 0;
+  for (let i = 0; i < 5; i++) y = y * 32 + w[i];
+  // y · kehrwert < 2^50 – exakt darstellbar
+  const x = (y * kehrwert) % MOD;
+  if (x % 8 !== 5) return { gueltig: false, grund: 'Kein gültiger Code.' };
+  const n = (x - 5) / 8;
+  const etappe = Math.floor(n / 262144);
+  const stufenwert = Math.floor(n / 65536) % 4;
+  if (stufenwert > 2) return { gueltig: false, grund: 'Kein gültiger Code.' };
+  const etappeText = etappe === 0 ? 'noch nicht gestartet'
+    : etappe <= 7 ? 'Etappe ' + etappe
+      : 'Endlosmodus, Wachstumsstufe ' + (etappe - 7) + (etappe === 15 ? ' oder höher' : '');
+  return {
+    gueltig: true, etappe, etappeText,
+    stufe: ['G', 'H', 'E'][stufenwert],
+    richtig: Math.floor(n / 256) % 256,
+    falsch: n % 256
+  };
+}
+</script>
+<script>
+(function () {
+  'use strict';
+  const A = window.Aufgaben, S = window.Selbsttest;
+  const LAEUFE = 2000;
+  const $ = id => document.getElementById(id);
+  const fmt = A.zahl;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const zeigeLoesung = l => fmt(l);
+
+  const typen = A.TYPEN.concat(['grossbauwerk']);
+  $('matrix').innerHTML = '<tr><th>Aufgabentyp</th>' + A.STUFEN.map(s => '<th>' + A.NAMEN_STUFE[s] + '</th>').join('') + '</tr>' +
+    typen.map(t => '<tr><td>' + A.NAMEN_TYP[t] + (t === 'grossbauwerk' ? ' <span class="klein">(3.8, Stufe + 1)</span>' : '') + '</td>' +
+      A.STUFEN.map(s => '<td class="zelle" id="m-' + t + '-' + s + '"><span class="klein">wartet</span></td>').join('') + '</tr>').join('');
+  const matrixStand = {};
+
+  function karte(e) {
+    const pr = Object.keys(e.pruefungen).map(name => {
+      const p = e.pruefungen[name];
+      return '<li><span class="' + (p.fehler ? 'fehler-text' : 'ok-text') + '">' + (p.fehler ? '✗' : '✓') + '</span>' +
+        '<span>' + esc(name) + '</span><span class="klein">' + fmt(p.ok) + (p.fehler ? ' · <b class="fehler-text">' + fmt(p.fehler) + ' Fehler</b>' : '') + '</span>' +
+        (p.beispiel ? '<span class="detail">z. B.: ' + esc(p.beispiel.detail) + (p.beispiel.anzeige ? '<br>Aufgabe: ' + p.beispiel.anzeige : '') + '</span>' : '') + '</li>';
+    }).join('');
+    const musterOk = e.musterIst === e.musterSoll;
+    const chips = Object.keys(e.muster).map(m => '<span class="chip">' + esc(m) + ' ×' + e.muster[m] + '</span>').join('');
+    const beispiele = e.beispiele.map(b =>
+      '<div class="beispiel"><div class="muster">' + esc(b.muster) + '</div>' +
+      '<div class="aufgabe">' + b.anzeige + '</div>' +
+      '<div>Lösung: <span class="loesung">' + zeigeLoesung(b.loesung) + '</span> <span class="klein">· geschätzt ' + b.sekunden + ' s</span></div>' +
+      '<div class="rechenweg">' + b.rechenweg + '</div>' +
+      '<div class="tipp">Tipp: ' + esc(b.tipp) + '</div></div>').join('');
+    return '<section class="karte' + (e.bestanden ? '' : ' fehler') + '">' +
+      '<header><h3>' + A.NAMEN_STUFE[e.stufe] + ' · Niveau ' + e.niveau + '</h3><span class="' + (e.bestanden ? 'ok-text' : 'fehler-text') + '"><b>' + (e.bestanden ? 'bestanden' : 'nicht bestanden') + '</b></span></header>' +
+      '<div class="klein">' + fmt(e.laeufe) + ' Läufe · Lösungen ' + fmt(e.min) + ' bis ' + fmt(e.max) +
+        ' · Grenze ' + fmt(e.maxErg) + ' (' + e.quelle + ')' + (e.maxZahl ? ' · Zahlen ≤ ' + fmt(e.maxZahl) : '') +
+        ' · ' + fmt(e.verschiedene) + ' verschiedene Anzeigen · Median-Zeit ' + e.medianSekunden + ' s · ' + e.dauerMs + ' ms</div>' +
+      '<ul class="pruefliste" style="margin-top:8px">' + pr +
+        '<li><span class="' + (musterOk ? 'ok-text' : 'fehler-text') + '">' + (musterOk ? '✓' : '✗') + '</span><span>Alle Muster kommen vor</span><span class="klein">' + e.musterIst + ' / ' + e.musterSoll + '</span></li></ul>' +
+      '<div class="chips">' + chips + '</div>' +
+      '<details><summary>Beispielaufgaben mit Rechenweg ansehen</summary>' + beispiele + '</details>' +
+      '</section>';
+  }
+
+  const start = performance.now();
+  S.laufen(LAEUFE, (e, i, gesamt) => {
+    $('balken').style.width = (100 * i / gesamt) + '%';
+    const zelle = $('m-' + e.typ + '-' + e.stufe);
+    const fehler = Object.values(e.pruefungen).reduce((s, p) => s + p.fehler, 0);
+    const stand = matrixStand[e.typ + e.stufe] = matrixStand[e.typ + e.stufe] || [];
+    stand.push(e.bestanden ? '<span class="ok-text">✓ N' + e.niveau + '</span>' : '<span class="fehler-text">✗ N' + e.niveau + ' (' + fmt(fehler) + ')</span>');
+    zelle.innerHTML = '<a href="#d-' + e.typ + '">' + stand.join(' &nbsp;') +
+      '<div class="klein">' + fmt(e.laeufe) + ' Läufe je Niveau · ' + Object.keys(e.pruefungen).length + ' Prüfungen</div></a>';
+    let block = $('d-' + e.typ);
+    if (!block) {
+      block = document.createElement('div');
+      block.className = 'typ';
+      block.id = 'd-' + e.typ;
+      block.innerHTML = '<h2>' + A.NAMEN_TYP[e.typ] + '</h2><div class="stufen"></div>';
+      $('details').appendChild(block);
+    }
+    block.querySelector('.stufen').insertAdjacentHTML('beforeend', karte(e));
+  }).then(p => {
+    const dauer = ((performance.now() - start) / 1000).toFixed(1);
+    const anzahl = p.ergebnisse.reduce((s, e) => s + e.laeufe, 0);
+    const sp = window.Spieltest.laufen(codeLesen);
+    const alles = p.bestanden && sp.bestanden;
+    $('status').textContent = alles ? '✓ Alle Tests bestanden' : '✗ Tests nicht bestanden';
+    $('status').className = 'status ' + (alles ? 'ok' : 'fehler');
+    $('spielablauf').innerHTML = '<tr><th>Bereich</th><th>Prüfung</th><th>Ergebnis</th></tr>' + sp.tests.map(t =>
+      '<tr><td class="klein">' + esc(t.bereich) + '</td><td>' + esc(t.name) + (t.detail ? '<div class="klein">' + esc(t.detail) + '</div>' : '') +
+      '</td><td class="' + (t.ok ? 'ok-text' : 'fehler-text') + '"><b>' + (t.ok ? '✓' : '✗') + '</b></td></tr>').join('');
+    const f1 = v => v.toFixed(1).replace('.', ',');
+    const rs = sp.simulation.realistisch, ss = sp.simulation.schnell;
+    $('simSchnell').innerHTML = '<tr><th>Annahme</th><th class="zahl">Etappe 4 fertig</th><th class="zahl">Etappe 7 fertig</th></tr>' +
+      '<tr><td>Obergrenze 100 s je Aufgabe (Pflichtenheft 9.5)</td><td class="zahl"><b>' + f1(ss.minuten) + ' min</b></td><td class="zahl">–</td></tr>' +
+      '<tr><td>Geschätzte Zeit je Aufgabe, 300 simulierte Spiele (Median, kürzeste–längste)</td><td class="zahl"><b>' + f1(rs.bis4.median) + ' min</b><div class="klein">' +
+      f1(rs.bis4.min) + '–' + f1(rs.bis4.max) + ' min</div></td><td class="zahl"><b>' + f1(rs.bis7.median) + ' min</b><div class="klein">' + f1(rs.bis7.min) + '–' + f1(rs.bis7.max) + ' min</div></td></tr>';
+    $('anstieg').innerHTML = '<tr><th>Aufgabentyp</th><th>Stufe</th><th class="zahl">größte Zahl N1 / N2 / N3</th><th class="zahl">Zeit N1 / N2 / N3</th><th class="zahl">Muster</th><th>steigt</th></tr>' +
+      p.anstieg.map(a => '<tr><td>' + A.NAMEN_TYP[a.typ] + '</td><td>' + A.NAMEN_STUFE[a.stufe] + '</td><td class="zahl">' + a.zahlen.map(v => fmt(Math.round(v))).join(' / ') +
+        '</td><td class="zahl">' + a.sekunden.map(v => Math.round(v) + ' s').join(' / ') + '</td><td class="zahl">' + a.muster.join(' / ') +
+        '</td><td class="' + (a.ok ? 'ok-text' : 'fehler-text') + '"><b>' + (a.ok ? '✓' : '✗') + '</b></td></tr>').join('');
+    const sv = sp.simulation.schwach.verlauf;
+    $('simulation').innerHTML = '<tr><th>Aufgabe</th>' + sv.slice(0, 16).map(v => '<th class="zahl">' + v.i + '</th>').join('') + '</tr>' +
+      '<tr><td>Ergebnis</td>' + sv.slice(0, 16).map(v => '<td class="zahl">' + ((v.i === 1 || (v.i - 2) % 3 === 0) ? 'R' : '<span class="fehler-text">F</span>') + '</td>').join('') + '</tr>' +
+      '<tr><td>Stufe danach</td>' + sv.slice(0, 16).map(v => '<td class="zahl"><b>' + v.stufe + '</b></td>').join('') + '</tr>' +
+      '<tr><td>Etappe</td>' + sv.slice(0, 16).map(v => '<td class="zahl">' + v.etappe + '</td>').join('') + '</tr>';
+    $('meta').textContent = p.beginn.toLocaleString('de-DE') + ' · ' + fmt(anzahl) + ' Aufgaben erzeugt und geprüft (' + fmt(LAEUFE) +
+      ' je Generator, Stufe und Niveau) · ' + dauer + ' s · ' + navigator.userAgent;
+
+    $('schablonen').innerHTML = '<tr><th>Schablone</th><th>Stufe</th><th class="zahl">kam vor</th><th>Nebenbedingungen</th></tr>' +
+      p.schablonen.zeilen.map(s => {
+        const vorgabe = { fehler: p.ergebnisse.filter(e => e.typ === 'sachaufgabe' && e.stufe === s.stufe)
+          .reduce((summe, e) => summe + e.pruefungen['Vorgaben des Musters / der Schablone'].fehler, 0) };
+        return '<tr><td>' + s.id + '</td><td>' + A.NAMEN_STUFE[s.stufe] + '</td><td class="zahl ' + (s.anzahl ? '' : 'fehler-text') + '">' + fmt(s.anzahl) + '×</td>' +
+          '<td class="' + (vorgabe.fehler ? 'fehler-text' : 'ok-text') + '">' + (vorgabe.fehler ? '✗ siehe Stufe' : '✓ in allen Läufen erfüllt') + '</td></tr>';
+      }).join('') +
+      '<tr><td colspan="4" class="' + (p.schablonen.gesamt >= 15 ? 'ok-text' : 'fehler-text') + '"><b>' + p.schablonen.gesamt + ' Schablonen</b> (gefordert: mindestens 15)</td></tr>';
+
+    $('eingabe').innerHTML = '<tr><th>Fall</th><th>Ergebnis</th></tr>' +
+      p.eingabe.map(r => '<tr><td>' + esc(r.name) + '</td><td class="' + (r.ok ? 'ok-text' : 'fehler-text') + '">' + (r.ok ? '✓' : '✗') + '</td></tr>').join('');
+
+    $('offen').innerHTML = p.offen.map(o => '<li><span class="offen-text"><b>offen · ' + o.schritt + '</b></span> – ' +
+      '<b>' + o.nr + ' ' + esc(o.name) + '.</b> ' + esc(o.beschreibung) + '</li>').join('');
+
+    $('protokoll').textContent = S.alsText(p) + '\n' + window.Spieltest.alsText(sp) + '\nGESAMT (Generatoren + Spielablauf): ' + (alles ? 'BESTANDEN' : 'NICHT BESTANDEN');
+    window.__protokoll = p;
+  });
+
+  function codeZeigen() {
+    const l = codeLesen($('codeEingabe').value);
+    $('codeErgebnis').innerHTML = l.gueltig
+      ? '<span class="ok-text"><b>✓ gültig</b></span> · ' + esc(l.etappeText) + ' · ' + A.NAMEN_STUFE[l.stufe] + ' · ✓ ' + l.richtig + ' richtig · ✗ ' + l.falsch + ' falsch' +
+        (l.richtig === 255 || l.falsch === 255 ? ' <span class="klein">(255 = 255 oder mehr)</span>' : '')
+      : '<span class="fehler-text"><b>✗ ungültig</b></span> · ' + esc(l.grund);
+  }
+  $('codeKnopf').addEventListener('click', codeZeigen);
+  $('codeEingabe').addEventListener('keydown', e => { if (e.key === 'Enter') codeZeigen(); });
+
+  $('kopieren').addEventListener('click', () => {
+    navigator.clipboard.writeText($('protokoll').textContent).then(() => { $('kopieren').textContent = 'Kopiert'; });
+  });
+})();
+</script>
+</body>
+</html>
